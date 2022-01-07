@@ -1,0 +1,187 @@
+/* body{
+    font-family: 'Rubik', sans-serif; 
+} */
+/* heading-section */
+.head{
+    display: flex;
+    
+}
+.banner{
+    width: 50%;
+    padding: 5%;    
+}
+.heading{
+    border-left: 5px solid orangered; 
+    border-image-slice: 1;
+    padding-left: 10px;
+
+}
+.heading h1{
+    color: black;
+    font-size: 50px;
+}
+.heading .pink{
+    color: peru;
+}
+.banner a{
+    font-weight: 300;
+   
+
+}
+.here{
+    padding: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.863);
+}
+.banner img{
+    width: 70%;
+}
+/* my-mission-section */
+.my-mission .row{
+    display: flex;
+}
+.my-mission .col-1-3{
+    width: 33.33%;
+    padding: 50px;
+}
+.my-mission .col-1-3 img{
+    width: 40%;
+}
+.my-mission h1{
+    font-size: 50px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+.my-mission samp{
+    color: peru;
+}
+.my-mission h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.my-mission .mission{
+    background-color: rgb(155, 236, 155);
+    padding: 20px;
+    border-radius: 20px;
+}
+.my-mission .vission{
+    background-color: rgb(233, 158, 233);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.my-mission .goal{
+    background-color: rgb(214, 197, 119);
+    padding: 20px;
+    border-radius: 20px;
+}
+/* develop-section */
+.develop-section .row{
+    display: flex;
+    padding: 10px;
+}
+.develop-section .col-1-2{
+    width: 50%;
+}
+.col{
+    margin-top: 80px;
+}
+.left-back{
+    background-image: url("shapes/shape-1.png");
+    background-repeat: no-repeat;
+
+    background-position: center left;
+    background-size: 200px;
+    margin-top: 40px;
+}
+.develop-section img{ 
+    width: 60%;
+    margin-left: 90px;
+}
+.develop h2{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.col-1-2 p{
+    color: black;
+    font-size: 16px;
+    margin: 40px 0;
+    width: 80%;
+}
+.community-section .row{
+    display: flex;
+    padding: 40px;
+}
+.community-section .col-1-2{
+    width: 50%;
+    padding: 10px;
+}
+.community-section img{
+    width: 70%;
+    margin-bottom: 48px;
+    margin-left: 80px;
+}
+.right-back{
+    background-image: url("shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px;
+    margin-top: 40px;
+}
+
+/* contact-section */
+.contact-section{
+    padding: 20px;
+    background-color: coral;
+}
+.contact-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+form{
+    justify-content: center;
+    text-align: center;
+}
+.form input[type="email"],
+.form input[type="password"],
+.form textarea{
+    display: block;
+    padding: 8px 10px;
+    margin: 12px auto;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 76, 22, 0.842);
+}
+.form input[type="submit"]{
+    padding: 10px 50px;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-section{
+    background-color: darkslateblue;
+    padding: 10px;
+    text-align: center;
+    color: floralwhite;
+}
+.footer-section h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.footer-section samp{
+    color: rgb(255, 94, 0);
+}
